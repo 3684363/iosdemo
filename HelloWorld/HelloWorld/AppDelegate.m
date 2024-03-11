@@ -20,7 +20,7 @@
     self.window= [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
     
     //ViewController@"新闻"
-    ViewController *viewController1=[[ViewController alloc] init];
+    ViewController *viewController1 = [[ViewController alloc] init];
     UINavigationController *navigationController1=[[UINavigationController alloc] initWithRootViewController:viewController1];
     navigationController1.view.backgroundColor=[UIColor whiteColor];
     navigationController1.tabBarItem.title=@"新闻";
