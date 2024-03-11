@@ -15,13 +15,14 @@
     // 创建 AFHTTPSessionManager 实例
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     // 设置 Pexels API 的 base URL
-    NSString *baseURL = @"https://api.pexels.com/v1/search";
+    NSString *baseURL = @"https://api.pexels.com/v1/search"; //属性表示
     //构建 Pexels API 的 完整 URL,拼接查询参数
     NSString *fullURL = [NSString stringWithFormat:@"%@?query=%@&page=1&per_page=20",baseURL,searchstring];
     // 设置 Pexels API 的授权 token
-    NSString *apiKey = @"uXVOXxgzi0PgMsxMS6lKFjYs5qRAbXV8aAhjVZ1IrWDCTTXOoNMUNJ28";
+    NSString *apiKey = @"uXVOXxgzi0PgMsxMS6lKFjYs5qRAbXV8aAhjVZ1IrWDCTTXOoNMUNJ28";//属性表示
     // 设置请求头部，包括授权 token
     [manager.requestSerializer setValue:[NSString stringWithFormat:@"%@", apiKey] forHTTPHeaderField:@"Authorization"];
+    // [NSString stringWithFormat:@"%@", apiKey] 仅用 apiKey 可以么？
 
     // 发起 GET 请求
     NSMutableArray *urls = [NSMutableArray array];
@@ -44,7 +45,7 @@
             }
         
             dispatch_async(dispatch_get_main_queue(), ^{
-            if(finishblock){
+            if(finishblock){//注意缩紧
                 finishblock(YES,urls.copy);
             }
             });
