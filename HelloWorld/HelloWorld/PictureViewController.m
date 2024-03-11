@@ -19,10 +19,10 @@
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
     self.navigationController.navigationBar.hidden = YES;
-    
-    
+    // self.pexelsLoader self.collectionView self.searchBar 建议用懒加载
+    //多余空格都删除
     //初始化self.urlarray
-    self.urlArray = [NSMutableArray array];
+    self.urlsArray = [NSMutableArray array];
     
     
     //pexelsLoader
@@ -43,11 +43,11 @@
     CGFloat screenWidth = CGRectGetWidth(screenBounds);
     CGFloat screenHeight = CGRectGetHeight(screenBounds);
     CGFloat collectionViewHeight = screenHeight * 0.9;
-    
+
     self.collectionView=[[UICollectionView alloc] initWithFrame:CGRectMake(0, screenHeight - collectionViewHeight, screenWidth,collectionViewHeight)                                                collectionViewLayout:flowLayout];
     self.collectionView.dataSource=self;
     self.collectionView.delegate=self;
-    [self.collectionView registerClass:[PictureViewCell class] forCellWithReuseIdentifier:@"PictureViewCell"];
+    [self.collectionView registerClass:[PictureViewCell class] forCellWithReuseIdentifier:@"PictureViewCell"];//PictureViewCell 建议用静态常量表示
     self.collectionView.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addSubview:self.collectionView];
     
@@ -76,7 +76,7 @@
 
 /*
 #pragma mark - Navigation
-
+//无用方法删除
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
@@ -111,7 +111,7 @@
 
 //searchBar
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
-    
+    //多余空格
     //获取用户输入的字符串
     NSString *updateString = [textField.text stringByReplacingCharactersInRange:range withString:string];
     //保存用户输入的字符串
