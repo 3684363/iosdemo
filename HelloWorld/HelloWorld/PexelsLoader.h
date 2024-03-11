@@ -2,7 +2,7 @@
 //  PexelsLoader.h
 //  HelloWorld
 //
-//  Created by  huwenqiang on 2024/3/6.
+//  Created by huwenqiang on 2024/3/6.//多个空格？
 //
 
 #import <Foundation/Foundation.h>
@@ -13,9 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PexelsLoader : NSObject
 
-@property(nonatomic,strong,readwrite)NSString *next_page_url;
+@property(nonatomic,copy,readwrite)NSString *next_page_url; //这里详细看下为什么？
 
--(void)loadListDataWithFinishBlock:(NSString *) searchstring finishblock:(PexelsLoaderFinishBlock)finishblock;
+- (void)loadListDataWithFinishBlock:(NSString *) searchstring finishblock:(PexelsLoaderFinishBlock)finishblock;
 
 -(void)loadListDataWithButtonClick:(PexelsLoaderFinishBlock)finishblock;
 
