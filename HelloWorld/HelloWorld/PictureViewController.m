@@ -8,8 +8,9 @@
 #import "PictureViewController.h"
 #import "PictureViewCell.h"
 #import "MJRefresh.h"
+#import "LMHWaterFallLayout.h"
 
-@interface PictureViewController ()<UICollectionViewDataSource,UICollectionViewDelegate,UITextFieldDelegate>
+@interface PictureViewController ()<UICollectionViewDataSource,UICollectionViewDelegate,UITextFieldDelegate,LMHWaterFallLayoutDeleaget>
 
 @end
 
@@ -23,37 +24,25 @@
     
     //初始化self.urlarray
     self.urlArray = [NSMutableArray array];
+    self.widthArray = [NSMutableArray array];
+    self.heightArray = [NSMutableArray array];
     
     
     //pexelsLoader
     self.pexelsLoader=[[PexelsLoader alloc] init];
-    [self.pexelsLoader loadListDataWithFinishBlock:@"food" finishblock:^(BOOL success, NSArray * _Nullable urlArray) {
+    [self.pexelsLoader loadListDataWithFinishBlock:@"food" finishblock:^(BOOL success, NSArray * _Nullable urlArray, NSArray *_Nullable WidthArray, NSArray *_Nullable HeightArray) {
         [self.urlArray setArray:urlArray];
+        [self.widthArray setArray:WidthArray];
+        [self.heightArray setArray:HeightArray];
         [self.collectionView reloadData];
     }];
+   
     
-    
-    //collectionview
-    UICollectionViewFlowLayout *flowLayout=[[UICollectionViewFlowLayout alloc] init];
-    flowLayout.minimumLineSpacing=10;
-    flowLayout.minimumInteritemSpacing=10;
-    flowLayout.itemSize=CGSizeMake((self.view.frame.size.width-10)/2, 300);
-    
-    CGRect screenBounds = [[UIScreen mainScreen] bounds];
-    CGFloat screenWidth = CGRectGetWidth(screenBounds);
-    CGFloat screenHeight = CGRectGetHeight(screenBounds);
-    CGFloat collectionViewHeight = screenHeight * 0.9;
-    
-    self.collectionView=[[UICollectionView alloc] initWithFrame:CGRectMake(0, screenHeight - collectionViewHeight, screenWidth,collectionViewHeight)                                                collectionViewLayout:flowLayout];
-    self.collectionView.dataSource=self;
-    self.collectionView.delegate=self;
-    [self.collectionView registerClass:[PictureViewCell class] forCellWithReuseIdentifier:@"PictureViewCell"];
-    self.collectionView.translatesAutoresizingMaskIntoConstraints = NO;
-    [self.view addSubview:self.collectionView];
+    //layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;[self.view addSubview:self.collectionView];
     
     
     //searchBar
-    self.searchBar=[[SearchBar alloc] initWithFrame:CGRectMake(0, 0, screenWidth, 100)];
+    self.searchBar=[[SearchBar alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth([[UIScreen mainScreen] bounds]), 100)];
     self.searchBar.textField.delegate = self;
     [self.view addSubview:_searchBar];
     
@@ -84,30 +73,98 @@
 }
 */
 
+- (UICollectionView *)collectionView{
+    if(!_collectionView){
+        
+//        CustomCollectionViewFlowLayout *flowLayout = [[CustomCollectionViewFlowLayout alloc] init];
+//        [flowLayout flowLayoutWithItemWidth:(self.view.frame.size.width-10)/2 itemWidthArray:_widthArray itemHeightArray:_heightArray];
+//        UICollectionViewFlowLayout *flowLayout=[[UICollectionViewFlowLayout alloc] init];
+//        flowLayout.minimumInteritemSpacing = 10; // 设置每个 cell 之间的水平间距
+//        flowLayout.minimumLineSpacing = 10; // 设置每个 cell 之间的垂直间距
+//        flowLayout.sectionInset = UIEdgeInsetsMake(0, 0, 0, 0);
+//        flowLayout.headerReferenceSize = CGSizeZero;
+//        flowLayout.footerReferenceSize = CGSizeZero;
+        
+        LMHWaterFallLayout *flowLayout = [[LMHWaterFallLayout alloc] init];
+        flowLayout.delegate = self;
+        
+        CGRect screenBounds = [[UIScreen mainScreen] bounds];
+        CGFloat screenWidth = CGRectGetWidth(screenBounds);
+        CGFloat screenHeight = CGRectGetHeight(screenBounds);
+        CGFloat collectionViewHeight = screenHeight * 0.9;
+        _collectionView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
+        
+        _collectionView=[[UICollectionView alloc] initWithFrame:CGRectMake(0, screenHeight - collectionViewHeight,screenWidth,collectionViewHeight)                                                collectionViewLayout:flowLayout];
+        _collectionView.dataSource = self;
+        _collectionView.delegate = self;
+        [_collectionView registerClass:[PictureViewCell class] forCellWithReuseIdentifier:@"PictureViewCell"];
+        //_collectionView.translatesAutoresizingMaskIntoConstraints = NO;
+        
+        [self.view addSubview:self.collectionView];
+    }
+    return _collectionView;
+}
+
+
+#pragma mark    - *** <UICollectionViewDataSource,UICollectionViewDelegat> ***
+
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    
-    return self.urlArray.count;
+    if (self.urlArray.count != 0) {
+        return self.urlArray.count;
+    } else {
+        return 0;
+    }
 }
 
 // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     PictureViewCell *cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"PictureViewCell" forIndexPath:indexPath];
-    //cell.backgroundColor=[UIColor redColor];
     //NSLog(@"self.urlArray: %@", self.urlArray);
-    [cell layoutPictureViewCell:[self.urlArray objectAtIndex:indexPath.row]];
+    [cell layoutPictureViewCell:[self.urlArray objectAtIndex:indexPath.row]
+                          width:[_widthArray objectAtIndex:indexPath.row]
+                         height:[_heightArray objectAtIndex:indexPath.row]
+    ];
+    //cell.backgroundColor= [UIColor redColor];
     return cell;
 }
 
-//cell sizeForItemAtIndexPath
-- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout
-                                            sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.item%3==0) {
-        return CGSizeMake((self.view.frame.size.width-10)/2, 250);
-    } else {
-        return CGSizeMake((self.view.frame.size.width-10)/2, 300);
-    }
+
+
+#pragma mark     - *** <LMHWaterFallLayoutDeleaget> ***
+
+- (CGFloat)waterFallLayout:(LMHWaterFallLayout *)waterFallLayout heightForItemAtIndexPath:(NSUInteger)indexPath itemWidth:(CGFloat)itemWidth{
+    // 计算图片的宽高比
+    CGFloat videoWidth = [[self.widthArray objectAtIndex:indexPath]  floatValue];
+    CGFloat videoHeight = [[self.heightArray objectAtIndex:indexPath] floatValue];
+    CGFloat videoAspectRatio = videoWidth / videoHeight;
+
+    // 根据视频宽高比和屏幕宽度计算视频应该显示的高度
+    CGFloat videoHeightToShow = (self.view.frame.size.width-10)/2 / videoAspectRatio;
+//    NSLog(@"itemWidth :%f",itemWidth);
+    return  videoHeightToShow;
 }
+
+#pragma mark    - *** <UICollectionViewDelegateFlowLayout> ***
+
+//cell sizeForItemAtIndexPath
+/*- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    // 计算图片的宽高比
+    CGFloat videoWidth = [[self.widthArray objectAtIndex:indexPath.row]  floatValue];
+    CGFloat videoHeight = [[self.heightArray objectAtIndex:indexPath.row] floatValue];
+    CGFloat videoAspectRatio = videoWidth / videoHeight;
+
+    // 根据视频宽高比和屏幕宽度计算视频应该显示的高度
+    CGFloat videoHeightToShow = (self.view.frame.size.width-10)/2 / videoAspectRatio;
+    if(indexPath.row == 6){
+        NSLog(@"(self.view.frame.size.width-10)/2: %f",(self.view.frame.size.width-10)/2);
+        NSLog(@"videoHeightToShow: %f",videoHeightToShow);
+    }
+    return CGSizeMake((self.view.frame.size.width-10)/2, videoHeightToShow);
+}*/
+
+
 
 //searchBar
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
@@ -124,8 +181,10 @@
     //在用户按下return时调用
     if (self.searchBar.userInputString.length > 0) {
         [self.pexelsLoader loadListDataWithFinishBlock:self.searchBar.userInputString 
-                                           finishblock:^(BOOL success, NSArray * _Nullable urlArray){
+                                           finishblock:^(BOOL success, NSArray * _Nullable urlArray, NSArray *_Nullable WidthArray, NSArray *_Nullable HeightArray){
                                                 [self.urlArray setArray:urlArray];
+                                                [self.widthArray setArray:WidthArray];
+                                                [self.heightArray setArray:HeightArray];
                                                 // indexPathToScroll 表示您要滚动到的单元格的位置，滚动到顶部
                                                 NSIndexPath *indexPathToScroll = [NSIndexPath indexPathForItem:0 inSection:0];
                                                 // 滚动到指定单元格的顶部
@@ -138,8 +197,10 @@
 
 //button点击
 -(void)buttonClick{
-    [self.pexelsLoader loadListDataWithButtonClick:^(BOOL success, NSArray * _Nullable urlArray) {
+    [self.pexelsLoader loadListDataWithButtonClick:^(BOOL success, NSArray * _Nullable urlArray, NSArray *_Nullable WidthArray, NSArray *_Nullable HeightArray) {
         [self.urlArray setArray:urlArray];
+        [self.widthArray setArray:WidthArray];
+        [self.heightArray setArray:HeightArray];
         // indexPathToScroll 表示您要滚动到的单元格的位置，滚动到顶部
         NSIndexPath *indexPathToScroll = [NSIndexPath indexPathForItem:0 inSection:0];
         // 滚动到指定单元格的顶部
@@ -150,8 +211,10 @@
 
 //refreshdata
 -(void)refreshData {
-    [self.pexelsLoader loadListDataWithNextPageURL:^(BOOL success, NSArray * _Nullable urlArray) {
+    [self.pexelsLoader loadListDataWithNextPageURL:^(BOOL success, NSArray * _Nullable urlArray, NSArray *_Nullable WidthArray, NSArray *_Nullable HeightArray) {
         [self.urlArray setArray:urlArray];
+        [self.widthArray setArray:WidthArray];
+        [self.heightArray setArray:HeightArray];
         [self.collectionView reloadData];
         
     }];
@@ -160,8 +223,10 @@
 
 //下滑加载，分页请求
 -(void)loadMoreData {
-    [self.pexelsLoader loadListDataWithNextPageURL:^(BOOL success, NSArray * _Nullable urlArray) {
+    [self.pexelsLoader loadListDataWithNextPageURL:^(BOOL success, NSArray * _Nullable urlArray, NSArray *_Nullable WidthArray, NSArray *_Nullable HeightArray) {
         [self.urlArray addObjectsFromArray:urlArray];
+        [self.widthArray addObjectsFromArray:WidthArray];
+        [self.heightArray addObjectsFromArray:HeightArray];
         [self.collectionView reloadData];
     }];
     [_collectionView.mj_footer endRefreshing];

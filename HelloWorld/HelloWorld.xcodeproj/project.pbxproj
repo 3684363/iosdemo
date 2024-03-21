@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2B414FCC015F6F471C2527AD /* libPods-HelloWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938F89B4AD45CE263F56763E /* libPods-HelloWorld.a */; };
 		E00702DD2B99A71900CB696F /* SearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E00702DC2B99A71900CB696F /* SearchBar.m */; };
+		E03828362BAABC80003D2BFA /* LMHWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E03828352BAABC80003D2BFA /* LMHWaterFallLayout.m */; };
 		E074A6DD2B95AAE700541E35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E074A6DC2B95AAE700541E35 /* AppDelegate.m */; };
 		E074A6E32B95AAE700541E35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E074A6E22B95AAE700541E35 /* ViewController.m */; };
 		E074A6E82B95AAE800541E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E074A6E72B95AAE800541E35 /* Assets.xcassets */; };
@@ -21,6 +22,10 @@
 		E074A7CA2B97198A00541E35 /* PictureViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E074A7C92B97198A00541E35 /* PictureViewCell.m */; };
 		E089A3832B981B1D0011C346 /* PexelsLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E089A3822B981B1D0011C346 /* PexelsLoader.m */; };
 		E089A3852B9847C90011C346 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = E089A3842B9847C90011C346 /* podfile */; };
+		E0D65F852BA1576B008A2BE7 /* AVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D65F842BA1576B008A2BE7 /* AVPlayerManager.m */; };
+		E0FDED152B9EE4BF00FDCD93 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FDED142B9EE4BF00FDCD93 /* VideoViewController.m */; };
+		E0FDED182B9EF82700FDCD93 /* VideoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FDED172B9EF82700FDCD93 /* VideoViewCell.m */; };
+		E0FDED1B2B9F240E00FDCD93 /* VideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FDED1A2B9F240E00FDCD93 /* VideoPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,8 @@
 		938F89B4AD45CE263F56763E /* libPods-HelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00702DB2B99A71900CB696F /* SearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchBar.h; sourceTree = "<group>"; };
 		E00702DC2B99A71900CB696F /* SearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchBar.m; sourceTree = "<group>"; };
+		E03828342BAABC80003D2BFA /* LMHWaterFallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMHWaterFallLayout.h; sourceTree = "<group>"; };
+		E03828352BAABC80003D2BFA /* LMHWaterFallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMHWaterFallLayout.m; sourceTree = "<group>"; };
 		E074A6D82B95AAE700541E35 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E074A6DB2B95AAE700541E35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E074A6DC2B95AAE700541E35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +74,14 @@
 		E089A3812B981B1D0011C346 /* PexelsLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PexelsLoader.h; sourceTree = "<group>"; };
 		E089A3822B981B1D0011C346 /* PexelsLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PexelsLoader.m; sourceTree = "<group>"; };
 		E089A3842B9847C90011C346 /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		E0D65F832BA1576B008A2BE7 /* AVPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerManager.h; sourceTree = "<group>"; };
+		E0D65F842BA1576B008A2BE7 /* AVPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerManager.m; sourceTree = "<group>"; };
+		E0FDED132B9EE4BF00FDCD93 /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		E0FDED142B9EE4BF00FDCD93 /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		E0FDED162B9EF82700FDCD93 /* VideoViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewCell.h; sourceTree = "<group>"; };
+		E0FDED172B9EF82700FDCD93 /* VideoViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewCell.m; sourceTree = "<group>"; };
+		E0FDED192B9F240E00FDCD93 /* VideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayer.h; sourceTree = "<group>"; };
+		E0FDED1A2B9F240E00FDCD93 /* VideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +169,16 @@
 				E089A3822B981B1D0011C346 /* PexelsLoader.m */,
 				E00702DB2B99A71900CB696F /* SearchBar.h */,
 				E00702DC2B99A71900CB696F /* SearchBar.m */,
+				E0FDED132B9EE4BF00FDCD93 /* VideoViewController.h */,
+				E0FDED142B9EE4BF00FDCD93 /* VideoViewController.m */,
+				E0FDED162B9EF82700FDCD93 /* VideoViewCell.h */,
+				E0FDED172B9EF82700FDCD93 /* VideoViewCell.m */,
+				E0FDED192B9F240E00FDCD93 /* VideoPlayer.h */,
+				E0FDED1A2B9F240E00FDCD93 /* VideoPlayer.m */,
+				E0D65F832BA1576B008A2BE7 /* AVPlayerManager.h */,
+				E0D65F842BA1576B008A2BE7 /* AVPlayerManager.m */,
+				E03828342BAABC80003D2BFA /* LMHWaterFallLayout.h */,
+				E03828352BAABC80003D2BFA /* LMHWaterFallLayout.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -349,12 +374,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0D65F852BA1576B008A2BE7 /* AVPlayerManager.m in Sources */,
+				E03828362BAABC80003D2BFA /* LMHWaterFallLayout.m in Sources */,
 				E074A6E32B95AAE700541E35 /* ViewController.m in Sources */,
 				E074A7C12B96F47A00541E35 /* PictureViewController.m in Sources */,
 				E074A6DD2B95AAE700541E35 /* AppDelegate.m in Sources */,
 				E089A3832B981B1D0011C346 /* PexelsLoader.m in Sources */,
+				E0FDED1B2B9F240E00FDCD93 /* VideoPlayer.m in Sources */,
 				E074A7CA2B97198A00541E35 /* PictureViewCell.m in Sources */,
 				E074A6EE2B95AAE800541E35 /* main.m in Sources */,
+				E0FDED182B9EF82700FDCD93 /* VideoViewCell.m in Sources */,
+				E0FDED152B9EE4BF00FDCD93 /* VideoViewController.m in Sources */,
 				E00702DD2B99A71900CB696F /* SearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

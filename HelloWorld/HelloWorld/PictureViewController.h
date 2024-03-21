@@ -16,13 +16,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong,readwrite) NSMutableArray *urlArray;
 
+@property (nonatomic,strong,readwrite) NSMutableArray *widthArray;
+
+@property (nonatomic,strong,readwrite) NSMutableArray *heightArray;
+
+@property (nonatomic,strong,readwrite) NSMutableArray *itemHeightArray;
+
 @property (nonatomic,strong,readwrite) SearchBar *searchBar;
 
 @property (nonatomic,strong,readwrite) UICollectionView *collectionView;
 
 @property (nonatomic,strong,readwrite) UIButton *button;
-
-@property (nonatomic,strong,readwrite) UIRefreshControl *refreshControl;
 
 @end
 

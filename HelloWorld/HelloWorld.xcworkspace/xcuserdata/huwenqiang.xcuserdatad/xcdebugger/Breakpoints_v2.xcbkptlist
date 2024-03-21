@@ -5,80 +5,696 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "6E2827FE-4A0A-4377-A70E-C26122373AAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "2C9DADCD-9430-4CA9-BDBD-B2806700A8A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = ""
+            moduleName = "">
+            <Locations>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7B8FB5C8-1EEF-4D3F-8CEC-5C62022783D4"
+            uuid = "FE5E42E0-826E-4F69-9AF3-412CD74E87C0"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
+            filePath = "HelloWorld/VideoPlayer.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8399615C-660A-4145-A821-4CEC61F917BC"
+            uuid = "141347C6-31AC-468A-9522-190E750AA88B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
+            filePath = "HelloWorld/VideoPlayer.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5FFF3B02-5933-4069-AC7C-1010BF091480"
+            uuid = "56064744-D85B-4636-8A85-FAF3AE8E06DB"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
+            filePath = "HelloWorld/VideoPlayer.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A33AD0B4-604A-4B83-A7D4-124126B9E18A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoPlayer.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "-addSubvlayerwidth:height:"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "5FFF3B02-5933-4069-AC7C-1010BF091480 - d45bff0a8c08f7af"
+                  uuid = "A33AD0B4-604A-4B83-A7D4-124126B9E18A - 12e1377fc12f7534"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "-[PexelsLoader loadListData]"
+                  symbolName = "-[VideoPlayer addSubvlayerwidth:height:]"
                   moduleName = "HelloWorld"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/huwenqiang/Desktop/HelloWorld/HelloWorld/PexelsLoader.m"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoPlayer.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "300">
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "548">
                </Location>
                <Location
-                  uuid = "5FFF3B02-5933-4069-AC7C-1010BF091480 - d078ce986411e31d"
+                  uuid = "A33AD0B4-604A-4B83-A7D4-124126B9E18A - 12e1377fc12f744d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__28-[PexelsLoader loadListData]_block_invoke"
+                  symbolName = "-[VideoPlayer addSubvlayerwidth:height:]"
                   moduleName = "HelloWorld"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/huwenqiang/Desktop/HelloWorld/HelloWorld/PexelsLoader.m"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoPlayer.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "548">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FA7ED14-363D-47B9-9F34-FD325D941524"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoPlayer.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "-addSubvlayerwidth:height:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8F76EDB-5CED-4413-9F92-C10B72A3EC02"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C8F76EDB-5CED-4413-9F92-C10B72A3EC02 - 5b94ef53cd1e993f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoViewController viewDidLoad]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "524">
+               </Location>
+               <Location
+                  uuid = "C8F76EDB-5CED-4413-9F92-C10B72A3EC02 - 34f494b7a474cc61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__34-[VideoViewController viewDidLoad]_block_invoke"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "356">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D9DB152-7C24-4E2C-92A2-DCE929607F6F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoPlayer.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "-addSubvlayerwidth:height:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "962A50FF-39E9-400F-A182-0F1DAFF7E3CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoPlayer.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-initWithFrame:videoWithUrl:width:height:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "962A50FF-39E9-400F-A182-0F1DAFF7E3CC - 4cf081b45cbd83d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoPlayer initWithFrame:videoWithUrl:videoCoverUrl:width:height:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoPlayer.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "824">
+               </Location>
+               <Location
+                  uuid = "962A50FF-39E9-400F-A182-0F1DAFF7E3CC - 2ca2a72650d680bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoPlayer initWithFrame:videoWithUrl:width:height:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoPlayer.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "728">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8929F1F6-8D8C-47C5-93FF-3CD4298D3BAD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoPlayer.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "-initWithFrame:videoWithUrl:width:height:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8929F1F6-8D8C-47C5-93FF-3CD4298D3BAD - 4cf081b45cbd9c82"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoPlayer initWithFrame:videoWithUrl:videoCoverUrl:width:height:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoPlayer.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "800">
+               </Location>
+               <Location
+                  uuid = "8929F1F6-8D8C-47C5-93FF-3CD4298D3BAD - 2ca2a72650d680d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoPlayer initWithFrame:videoWithUrl:width:height:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoPlayer.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE6CC17C-6C34-4B23-9129-1029C3412849"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoPlayer.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FE6CC17C-6C34-4B23-9129-1029C3412849 - 96b2ef9e2238a77c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoPlayer observeValueForKeyPath:ofObject:change:context:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoPlayer.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "FE6CC17C-6C34-4B23-9129-1029C3412849 - 96b2ef9e2238a455"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoPlayer observeValueForKeyPath:ofObject:change:context:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoPlayer.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F21B0C9-9A04-4A12-8F93-41D68866D7F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "-setupWithVideoUrl:width:height:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7F21B0C9-9A04-4A12-8F93-41D68866D7F5 - 8736145c78f973aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoViewCell setupWithVideoCoverUrl:videoUrl:width:height:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "532">
+               </Location>
+               <Location
+                  uuid = "7F21B0C9-9A04-4A12-8F93-41D68866D7F5 - 8736145c78f973aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoViewCell setupWithVideoCoverUrl:videoUrl:width:height:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "7F21B0C9-9A04-4A12-8F93-41D68866D7F5 - e1887b6f3869fe39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoViewCell setupWithVideoUrl:width:height:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "388">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED11B68D-4FD9-477A-BC58-5BA4C29F8353"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2C6E188-8DAB-45E0-88B4-FD91FB92FD57"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC3D34FE-221F-43AA-8C85-DF12770A1BC5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "-collectionView:willDisplayCell:forItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E025DE4-8EB5-4CE2-B51D-2BA3188F2786"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "-collectionView:willDisplayCell:forItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E44BAE4B-B945-4469-9B59-12076340CF64"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoPlayer.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-initWithFrame:videoWithUrl:width:height:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26E2B87F-11EF-4F54-8830-4909A7AAA5B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "VideoViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAD1BE13-F07E-44DA-B83E-DDBC17543FBA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B418CCF-05D3-4FC1-AA0D-C700B04734F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0C97B71-6868-4B82-9600-460EDAF00D50"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D844D07E-3020-4B5E-95DF-418250E94F56"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7530EFE0-3B79-4D54-AE11-D2AE9758DDBA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "-setupWithVideoCoverUrl:width:height:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7530EFE0-3B79-4D54-AE11-D2AE9758DDBA - 1e8b16a08a9ee47c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoViewCell setupWithVideoCoverUrl:width:height:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "784">
+               </Location>
+               <Location
+                  uuid = "7530EFE0-3B79-4D54-AE11-D2AE9758DDBA - 1e8b16a08a9ee47c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoViewCell setupWithVideoCoverUrl:width:height:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FC124F6-2B38-4F5F-A3AE-C3FA4EE1F144"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4793632-CBBF-4F96-9E59-B814B905C288"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "VideoViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3178CA9-9FAC-4147-BC8B-F239433DEAFB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-setupWithVideoCoverUrl:width:height:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B3178CA9-9FAC-4147-BC8B-F239433DEAFB - 1e8b16a08a9ee6b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoViewCell setupWithVideoCoverUrl:width:height:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "B3178CA9-9FAC-4147-BC8B-F239433DEAFB - 1e8b16a08a9ee6b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoViewCell setupWithVideoCoverUrl:width:height:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
                   offsetFromSymbolStart = "112">
                </Location>
             </Locations>
@@ -87,63 +703,79 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9B627494-CF64-49AC-A364-1B16B483B1BC"
+            uuid = "3858FDA0-1577-4E6C-9C49-4A3919633338"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
+            filePath = "HelloWorld/VideoViewCell.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-setupWithVideoCoverUrl:width:height:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "76E0FD9C-815C-4ECD-B169-8114A66248D3"
+            uuid = "6F3AA1FB-6B6A-4E6B-ADD4-94AD24C8C95E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
+            filePath = "HelloWorld/VideoViewCell.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-prepareForReuse"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "140F9062-B4A3-4D97-8949-6638FB95BA47"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-prepareForReuse"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "76E0FD9C-815C-4ECD-B169-8114A66248D3 - d49b0c8ed2e51d48"
+                  uuid = "140F9062-B4A3-4D97-8949-6638FB95BA47 - d9076a4aa3942ca7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__28-[PexelsLoader loadListData]_block_invoke.17"
+                  symbolName = "-[VideoViewCell prepareForReuse]"
                   moduleName = "HelloWorld"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/huwenqiang/Desktop/HelloWorld/HelloWorld/PexelsLoader.m"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewCell.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "92">
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "208">
                </Location>
                <Location
-                  uuid = "76E0FD9C-815C-4ECD-B169-8114A66248D3 - d49b0c8ed2e31d46"
+                  uuid = "140F9062-B4A3-4D97-8949-6638FB95BA47 - d9076a4aa3942ca7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__28-[PexelsLoader loadListData]_block_invoke.19"
+                  symbolName = "-[VideoViewCell prepareForReuse]"
                   moduleName = "HelloWorld"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/huwenqiang/Desktop/HelloWorld/HelloWorld/PexelsLoader.m"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewCell.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "51"
-                  endingLineNumber = "51"
-                  offsetFromSymbolStart = "92">
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "232">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -151,47 +783,95 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "66583303-B190-496F-9472-395C06BEA4D6"
+            uuid = "F96D3C88-50DA-403E-B5F9-38B9EA5B7027"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
+            filePath = "HelloWorld/VideoViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "VideoViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD6BB3B9-89B2-4067-ACEF-026E32BF8C27"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "VideoViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "351B30DB-F86B-498F-8412-28C67A8573E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "-collectionView:didEndDisplayingCell:forItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B428EBA-8735-4899-9279-9EEA7D416EC3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "-collectionView:didEndDisplayingCell:forItemAtIndexPath:"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "66583303-B190-496F-9472-395C06BEA4D6 - d49b0c8ed2e51da7"
+                  uuid = "9B428EBA-8735-4899-9279-9EEA7D416EC3 - 8948820feb786320"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__28-[PexelsLoader loadListData]_block_invoke.17"
+                  symbolName = "-[VideoViewController collectionView:didEndDisplayingCell:forItemAtIndexPath:]"
                   moduleName = "HelloWorld"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/huwenqiang/Desktop/HelloWorld/HelloWorld/PexelsLoader.m"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewController.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "80">
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "136">
                </Location>
                <Location
-                  uuid = "66583303-B190-496F-9472-395C06BEA4D6 - d49b0c8ed2e31da9"
+                  uuid = "9B428EBA-8735-4899-9279-9EEA7D416EC3 - 8948820feb786576"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__28-[PexelsLoader loadListData]_block_invoke.19"
+                  symbolName = "-[VideoViewController collectionView:didEndDisplayingCell:forItemAtIndexPath:]"
                   moduleName = "HelloWorld"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/huwenqiang/Desktop/HelloWorld/HelloWorld/PexelsLoader.m"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewController.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "80">
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "1068">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -199,47 +879,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6ECD8C3E-9103-4E38-BA94-7615FC115097"
+            uuid = "B961DDC2-885C-4FD4-B637-5C6AFC17D0D4"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
+            filePath = "HelloWorld/VideoViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "-collectionView:didEndDisplayingCell:forItemAtIndexPath:"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "6ECD8C3E-9103-4E38-BA94-7615FC115097 - d49b0c8ed2e51d69"
+                  uuid = "B961DDC2-885C-4FD4-B637-5C6AFC17D0D4 - 8948820feb78625f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__28-[PexelsLoader loadListData]_block_invoke.17"
+                  symbolName = "-[VideoViewController collectionView:didEndDisplayingCell:forItemAtIndexPath:]"
                   moduleName = "HelloWorld"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/huwenqiang/Desktop/HelloWorld/HelloWorld/PexelsLoader.m"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewController.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
-                  offsetFromSymbolStart = "124">
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "908">
                </Location>
                <Location
-                  uuid = "6ECD8C3E-9103-4E38-BA94-7615FC115097 - d49b0c8ed2e31d67"
+                  uuid = "B961DDC2-885C-4FD4-B637-5C6AFC17D0D4 - 8948820feb7864ab"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__28-[PexelsLoader loadListData]_block_invoke.19"
+                  symbolName = "-[VideoViewController collectionView:didEndDisplayingCell:forItemAtIndexPath:]"
                   moduleName = "HelloWorld"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/huwenqiang/Desktop/HelloWorld/HelloWorld/PexelsLoader.m"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoViewController.m"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
-                  offsetFromSymbolStart = "124">
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "904">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -247,79 +927,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "FD3B88B3-6B57-4579-939F-A3A593EC0A62"
+            uuid = "EAAA169D-C46F-4A7F-92F3-C136344BDFF1"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
+            filePath = "HelloWorld/VideoViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5484B786-4F7C-4E6A-B6C7-42AC27CB1AC7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HelloWorld/SearchBar.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "-initWithFrame:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "918CB01B-41A8-4ACA-85A4-7AA5019D5CD4"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3C725048-4561-45C7-9ACC-10018532F517"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EB4A681B-AB8C-4620-9C07-E912CF35BCB3"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PictureViewController.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
             landmarkName = "-textFieldShouldReturn:"
             landmarkType = "7">
          </BreakpointContent>
@@ -327,112 +943,911 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E15D31B2-FABE-4FA6-B693-D8A03555EBC3"
+            uuid = "B1C48953-EB33-4169-B8A6-7F55D92B7206"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
+            filePath = "HelloWorld/VideoViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "-textFieldShouldReturn:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CC7B2014-EA7F-409F-8980-B3460986861E"
+            uuid = "C8B694B4-9B86-40C4-9612-201D6430B01A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
+            filePath = "HelloWorld/VideoPlayer.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-initWithFrame:videoWithUrl:width:height:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9ED57BD1-DA97-4297-8676-BEC5EE9B2F53"
+            uuid = "5A169414-E9F4-4C7E-A9AB-FFB4E10FAE09"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
+            filePath = "HelloWorld/VideoPlayer.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "-URLSession:dataTask:didReceiveResponse:completionHandler:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A4A142E7-F854-40C9-A6E8-E1F5E8EDB2E2"
+            uuid = "6A59631A-114C-4A79-AAFA-D15033EA598B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PexelsLoader.m"
+            filePath = "HelloWorld/VideoPlayer.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "-loadListDataWithFinishBlock:finishblock:"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "-resourceLoader:shouldWaitForLoadingOfRequestedResource:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "070B568A-4FC9-4F1E-89C9-C08D468139B5"
+            uuid = "30512499-8101-4B96-ADEC-D94E0819131C"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PictureViewController.m"
+            filePath = "HelloWorld/VideoPlayer.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
-            landmarkName = "-loadMoreData"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "-resourceLoader:shouldWaitForLoadingOfRequestedResource:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "415F9D8B-56EC-4690-8A32-549635E441E0"
+            uuid = "2EDB4176-0589-48DC-BB95-1B1346B70CD8"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PictureViewController.m"
+            filePath = "HelloWorld/VideoPlayer.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "166"
-            endingLineNumber = "166"
-            landmarkName = "-loadMoreData"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "-resourceLoader:shouldWaitForLoadingOfRequestedResource:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2EDB4176-0589-48DC-BB95-1B1346B70CD8 - 8fe6e2e0771212de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoPlayer resourceLoader:shouldWaitForLoadingOfRequestedResource:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoPlayer.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "2EDB4176-0589-48DC-BB95-1B1346B70CD8 - 8fe6e2e0771212ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VideoPlayer resourceLoader:shouldWaitForLoadingOfRequestedResource:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/VideoPlayer.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F9278A1-8EA0-4CFA-A614-FE1170E559F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/VideoPlayer.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "-URLSession:dataTask:didReceiveResponse:completionHandler:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5ECDB1E6-61C3-4E54-80A4-4FFC0EB502C2"
+            uuid = "9704D6D8-BFDE-43B2-8675-84686535DA6C"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HelloWorld/PictureViewController.m"
+            filePath = "HelloWorld/VideoPlayer.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "-URLSession:dataTask:didReceiveData:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B55F391-CEB5-4A64-9BBA-BCF6AB41019A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "-initWithFrame:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84D00A0D-0290-4D7B-A49D-CBCA7CBC5F50"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-layoutPictureViewCell:width:height:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "553B5E54-2D1B-48C8-A15D-2F11D9C9E28D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewCell.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
             endingLineNumber = "32"
+            landmarkName = "-layoutPictureViewCell:width:height:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBB965CB-2382-4349-BC6E-3179C34C365F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PexelsLoader.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "-loadListDataWithVideoSearch:finishblock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34C65713-0241-4F2D-AE3C-868A34C5F8CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PexelsLoader.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
+            landmarkName = "-loadListDataWithVideoSearch:finishblock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55A7004E-2409-4699-AA5C-E272405C8FF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PexelsLoader.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "-loadListDataWithVideoSearch:finishblock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECECD05C-D239-41C7-A5DD-6AC330531A53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PexelsLoader.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
+            landmarkName = "-loadListDataWithVideoSearch:finishblock:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ECECD05C-D239-41C7-A5DD-6AC330531A53 - e935eb038543987b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__56-[PexelsLoader loadListDataWithVideoSearch:finishblock:]_block_invoke"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/PexelsLoader.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "1096">
+               </Location>
+               <Location
+                  uuid = "ECECD05C-D239-41C7-A5DD-6AC330531A53 - e935eb038543987b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__56-[PexelsLoader loadListDataWithVideoSearch:finishblock:]_block_invoke"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/PexelsLoader.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "1192">
+               </Location>
+               <Location
+                  uuid = "ECECD05C-D239-41C7-A5DD-6AC330531A53 - e935eb038543987b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__56-[PexelsLoader loadListDataWithVideoSearch:finishblock:]_block_invoke"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/PexelsLoader.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "1116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3207F33D-0E20-4897-9023-F49192503A38"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PexelsLoader.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "-loadListDataWithVideoSearch:finishblock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7AFFC50-E94B-4BB3-A7D0-1B26C8952156"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PexelsLoader.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "-loadListDataWithVideoSearch:finishblock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "340897EE-4416-4D43-9072-5330192AA116"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PexelsLoader.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "-loadListDataWithVideoSearch:finishblock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACA9948F-4897-4C9D-89C9-324F45C85192"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "-layoutPictureViewCell:width:height:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ACA9948F-4897-4C9D-89C9-324F45C85192 - 4810a0a6ac5ed0fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PictureViewCell layoutPictureViewCell:width:height:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/PictureViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "ACA9948F-4897-4C9D-89C9-324F45C85192 - 4810a0a6ac5ed0fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PictureViewCell layoutPictureViewCell:width:height:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/PictureViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "360">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6CF4C55-61C3-48A4-925A-4051B1732BCB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-layoutPictureViewCell:width:height:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E72A3A1-0F89-415A-B237-78E6B78B3EAE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PexelsLoader.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
+            landmarkName = "-loadListDataWithVideoSearch:finishblock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFB29D02-25EA-42BB-9B74-6B18BC76AC07"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "PictureViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CFB29D02-25EA-42BB-9B74-6B18BC76AC07 - 2d7db60b18d4ca2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PictureViewController collectionView:layout:sizeForItemAtIndexPath:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/PictureViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  uuid = "CFB29D02-25EA-42BB-9B74-6B18BC76AC07 - 2d7db60b18d4d5b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PictureViewController collectionView:layout:sizeForItemAtIndexPath:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/PictureViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "612">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA3683B1-3BE4-4D84-AF34-BB70D37DB6D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/CustomCollectionViewFlowLayout.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-flowLayoutWithItemWidth:itemWidthArray:itemHeightArray:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2436DD8-A337-4576-B0CC-120D517B5181"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/CustomCollectionViewFlowLayout.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-flowLayoutWithItemWidth:itemWidthArray:itemHeightArray:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B02ECB6E-BD08-4335-A9C8-16D821C3B19A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "-collectionView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDB6DFE5-9A42-464E-A784-5F7DBDA80282"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/CustomCollectionViewFlowLayout.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-flowLayoutWithItemWidth:itemWidthArray:itemHeightArray:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BDB6DFE5-9A42-464E-A784-5F7DBDA80282 - 78876835f8258323"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CustomCollectionViewFlowLayout flowLayoutWithItemWidth:itemWidthArray:itemHeightArray:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/CustomCollectionViewFlowLayout.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "BDB6DFE5-9A42-464E-A784-5F7DBDA80282 - 78876835f8258323"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CustomCollectionViewFlowLayout flowLayoutWithItemWidth:itemWidthArray:itemHeightArray:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/CustomCollectionViewFlowLayout.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "838587FE-5427-4050-8154-8AF22838141D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13C8AC60-56E9-4C63-A6F0-07A70F8C872F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53C99803-D4CD-40EA-974F-50B08E3D61FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "53C99803-D4CD-40EA-974F-50B08E3D61FB - c0626a1303017000"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__36-[PictureViewController viewDidLoad]_block_invoke"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/PictureViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "53C99803-D4CD-40EA-974F-50B08E3D61FB - c0626a1303017000"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__36-[PictureViewController viewDidLoad]_block_invoke"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/PictureViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12049CA1-AA40-4E7B-8C9D-9597AB06AB47"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-collectionView"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "12049CA1-AA40-4E7B-8C9D-9597AB06AB47 - ba4a024ad69689be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PictureViewController collectionView]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/PictureViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "12049CA1-AA40-4E7B-8C9D-9597AB06AB47 - ba4a024ad696867c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PictureViewController collectionView]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/PictureViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CAA2E021-3797-412E-8BEE-9ADF1E454B81"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "-collectionView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C697D63F-11EB-4E18-88A4-C3E4D89F4FD0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "-collectionView:numberOfItemsInSection:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90400B00-8140-411E-8D3B-A3E078AF8560"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "-waterFallLayout:heightForItemAtIndexPath:itemWidth:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "156C2E5A-A2D2-46FA-AFCE-0640E7D31E02"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "-collectionView"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66F09BBB-9220-478D-91AF-CD610DCDB3A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/LMHWaterFallLayout.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "-layoutAttributesForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E5E1200-C6F7-463B-ACC4-287B8798A2B6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/LMHWaterFallLayout.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "-layoutAttributesForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FF17BA0-2B05-4FFE-A4DA-E5703F390FEC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/PictureViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "-waterFallLayout:heightForItemAtIndexPath:itemWidth:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8FF17BA0-2B05-4FFE-A4DA-E5703F390FEC - 268904338b6f4b74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PictureViewController waterFallLayout:heightForItemAtIndexPath:itemWidth:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/PictureViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "8FF17BA0-2B05-4FFE-A4DA-E5703F390FEC - 268904338b6f4b74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PictureViewController waterFallLayout:heightForItemAtIndexPath:itemWidth:]"
+                  moduleName = "HelloWorld"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/huwenqiang/study/iosdemo/HelloWorld/HelloWorld/PictureViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF0840E3-C1CC-4508-BEB9-82E23A5ACC10"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/LMHWaterFallLayout.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "-layoutAttributesForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76756ED0-1644-4E29-A40D-805F7FC36EF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/LMHWaterFallLayout.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "-layoutAttributesForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A27CD683-CDD2-41F2-87A0-04B3DA098B6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HelloWorld/LMHWaterFallLayout.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "-layoutAttributesForItemAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
